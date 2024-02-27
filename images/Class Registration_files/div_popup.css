@@ -1,0 +1,24 @@
+/* Aqua Panel Skin CSS for YUi 2.5.1 */
+#div_popup.yui-panel-container.shadow .underlay { background-color:#999; }
+#div_popup.yui-panel { position:relative; border:none !important; overflow:visible; background-color:transparent; }
+
+#div_popup.yui-panel .container-close { position: absolute; top:3px; left:4px; height:18px; width:17px; background: url"../images/UI_images/aqua-hd-close.gif") no-repeat !important; }
+#div_popup.yui-panel .container-close:hover { background: url("../images/UI_images/aqua-hd-close-over.gif") no-repeat !important; }
+
+#div_popup.yui-panel .hd { padding:0 !important; border:none !important;color:#000 !important; height:22px !important; margin-left:0px !important; margin-right:0px !important; text-align:center !important; overflow:visible !important; width:auto !important; }
+#div_popup.yui-panel .hd span { vertical-align:middle !important; line-height:22px !important; }
+#div_popup.yui-panel .hd div.tl { width:7px !important; height:22px !important; top:0 !important; left:0 !important; background:transparent url("../images/UI_images/aqua-hd-lt.gif") !important; position:absolute !important; }
+#div_popup.yui-panel .hd div.tr { width:7px !important; height:22px !important; top:0 !important; right:0 !important; background:transparent url("../images/UI_images/aqua-hd-rt.gif") !important; position:absolute !important; }
+
+#div_popup.yui-panel .bd { margin: 0 !important; overflow:auto; padding:4px; border: 1px solid #aeaeae !important; border-bottom:none!important;background-color:#FFF !important; width:auto; max-height:450px; }
+
+#div_popup.yui-panel .bd table.grid {border-top:1px solid #CCC;border-right:1px solid #CCC;}
+#div_popup.yui-panel .bd table.grid td{border-bottom:1px solid #CCC;border-left:1px solid #CCC;padding:2px 4px;}
+#div_popup.yui-panel .bd .fullWidth{width:98%;}
+
+#div_popup.yui-panel .ft {clear:both; color:#666; padding:2px; /*overflow:auto;*/ border-top:1px solid #999; background-color:#F2F2F2; width:auto; margin-left:0; margin-right:0; }
+
+#div_popup.yui-panel .close.nonsecure { top:3px; left:4px; height:18px; width:17px; background-image: url("../images/UI_images/aqua-hd-close.gif"); }
+#div_popup.yui-panel .close.secure { top:3px; left:4px; height:18px; width:17px; background-image: url("../images/UI_images/aqua-hd-close.gif"); }
+#div_popup.yui-panel .close.nonsecure:hover { top:3px; left:4px; height:18px; width:17px; background-image: url("../images/UI_images/aqua-hd-close-over.gif"); }
+#div_popup.yui-panel .close.secure:hover { top:3px; left:4px; height:18px; width:17px; background-image: url("../images/UI_images/aqua-hd-close-over.gif"); }

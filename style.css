@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(81, 60, 60);
+    color: beige;
+    text-align: center;
+   
+  
+}
+
+.img2 {
+    width: 400px;
+    height: 500px;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+#pg1 {
+text-align: left;
+}
+
+#pg2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+#lit1 {
+    background-color: rgb(77, 77, 77);
+    border-width: 5px;
+    border-color: rgb(92, 39, 39);
+    border-radius: 5px;
+    border-style: solid;
+}
+
+#lit2 {
+    background-color: rgb(77, 77, 77);
+    border-width: 5px;
+    border-color: rgb(92, 39, 39);
+    border-radius: 5px;
+    border-style: solid;
+}
+
+#hed1 {
+    background-color: rgb(29, 24, 24);
+    border-width: 5px;
+    border-color: rgb(92, 39, 39);
+    border-radius: 5px;
+    border-style: solid;
+}
+
+#img1 {
+    border-width: 5px;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+#pg4 {
+    background-color: black;
+    border-width: 5px;
+    border-color: rgb(92, 39, 39);
+    border-radius: 5px;
+    border-style: solid;
+}
+
+#pg3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+#pg5 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+}
+
+.pg6 {
+    border-width: 8px;
+    border-color: black;
+    border-radius: 8px;
+    border-style: solid;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 100px;
+}
+
+#pg7 {
+    background-color: rgb(81, 60, 60);
+    color: beige;
+    text-align: left;
+    font-size: small;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+

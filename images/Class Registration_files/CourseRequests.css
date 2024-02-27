@@ -1,0 +1,195 @@
+/* @override http://localhost:8080/scripts/course-prereqs/CourseRequests.css */
+
+/* @group Externals */
+
+.generalinstructions {
+	margin: 0 20px 10px;
+	font-size: large;
+}
+
+/* @end */
+
+
+
+/* @group Title Area */
+
+.grouptitle {
+	margin-left: 3px;
+	width: 300px;
+	min-height: 50px;
+	overflow: auto;
+	display: inline-block;
+}
+
+.grouptitle_name {
+	text-align: left;
+	text-indent: -20px;
+	margin-left: 20px;
+	*text-indent: -0em;
+	*margin-left: 0em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	letter-spacing: 2px;
+	color: #950036;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.grouptitle_desc {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+/* @end */
+
+/* @group Contents Area */
+
+.req_textarea {
+	float: right;
+	margin: 5px;
+}
+
+.req_displayarea {
+	margin-left: 0; /* Keep in sync with .grouptitle.width + some margin! */
+	margin-right: 60px; /* Keep in sync with .req_summaryarea.width + some margin! */
+	width: 100%;
+	min-width: 250px; /* yields a min layout width of 560px + padding / frames */
+	min-height:  50px;
+	width:  auto;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.req_unfilled {
+	font-weight: 0.5;
+	text-align: right;
+}
+
+.req_displaycourse {
+	display: inline-block;
+	width: 125px;/* fits 4-across */
+	background-color: #fff;
+	height: 70px;
+	margin: 2px;
+	border-style: solid;
+	border-width: 1px;
+	padding: 3;
+	overflow: hidden;
+	font-size: 10px;
+}
+
+.req_displaycourse.datatable_recommended {
+	font-weight: normal;
+	font-style: normal;
+}
+
+.req_displaycourse_name {
+	font-weight: bold;
+	width: 500px;	/* avoid linebreaks even on really long names! */
+}
+
+.req_displaycourse_num {
+	margin: 2px 5px;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 10px;
+	width: 500px;	/* avoid linebreaks even on really long numbers! */
+}
+
+.req_displaycourse_badges {
+	margin: 2px;
+}
+
+.req_displaycourse_badges .badge {
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+.req_displaycourse_prereq {
+	border-top: 1px dashed #ccc;
+}
+
+/* @end */
+
+.datatable_selectedcell {
+	background-color: rgba(248,255,0,0.5);
+	*background-color: #f1ff00;/* for IE7 ...*/
+}
+
+.datatable_recommended {
+	font-weight: bold !important;
+}
+
+.datatable_invalid {
+	color: #666;
+}
+
+.datatable_alertbad {
+	background-color: #fa989a;
+}
+
+.datatable_courseName {
+	font-size: larger;
+}
+
+.datatable_courseNumber {
+}
+
+.req_displayrow {
+}
+
+.req_displayrow td:first-child {
+    padding: 4px 8px 4px 4px;
+}
+
+.req_displayrow td:last-child {
+    padding: 4px 4px 4px 8px;
+}
+
+.reqRow {
+	position: relative;
+}
+.box-round > .reqRow:first-child {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    margin-top: 0;
+}
+.box-round > .reqRow:last-child {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.req_editarea {
+	position: absolute;
+	top: 5px;
+	right: 0;
+	display: block;
+	width: 40px;
+	height: auto;
+	text-align: right;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+/* this is for data summarizing the selection */
+.seldata {
+	font-weight: bold;
+}
+
+.popupdesctext {
+	font-size: 12px;
+	text-align: center;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5px;
+}
+
+#selcount_indicator {
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-right: 5px;
+	position: relative;
+	top: 2px;
+}
